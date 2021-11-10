@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background: rgb(184, 184, 204); */
+    /* background-color: black; */
+    background: url("bg2.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    
+    font-family: sans-serif;
+    /* line-height: 1.5; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    color:black;
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+.name{
+    font-size: 50px;
+    margin-top: 35px;
+    margin-bottom: 5px;
+    /* display: inline; */
+}
+.temp{
+    font-size: 30px;
+}
+.temp-degree{
+    display: inline;
+    /* color: whitesmoke; */
+}
+#search-input{
+    padding:5px 7px;
+    outline: none;
+    font-size: 20px;
+    border-radius: 2px;
+    border:1px solid black;
+    margin:5px;
+    background-color: whitesmoke;
+    
+}
+
+#search-btn,.current-loc{
+    margin:5px 7px;
+    padding:7px 5px;
+    font-size: 25px;
+    border-radius: 3px;
+    border:none;
+    background-color: black;
+    color:white;
+}
+#search-btn:hover,.current-loc:hover{
+    transition: 0.25s;
+    background-color: whitesmoke;
+    color: black;
+    
+}
+
+/* .icon{
+    
+} */
+header{
+    margin:10px 30px;
+    background-color: rgb(207, 204, 204);
+    /* background: url("bg.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+    border-radius: 10px;
+    /* border:1px solid blue; */
+    height:fit-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width:75vw;
+}
+@media screen and (max-width:400px) {
+    #search-input{
+        width:240px;
+    }
+    h1{
+        font-size: 40px;
+
+    }
+    header{
+        font-size: 10px;
+        /* background: none; */
+        /* margin-bottom: 20px; */
+        /* border:1px solid transparent; */
+        /* padding: 20px;
+        height: 85vh; */
+    }
+    .name{
+        font-size: 30px;
+    }
+    .temp{
+        font-size: 20px;
+    }
+    
+}
+
